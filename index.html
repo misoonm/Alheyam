@@ -1971,7 +1971,7 @@
     function goToSlide(slideIndex) {
         currentSlide = slideIndex;
         // التصحيح: استخدام 100% لكل شريحة بدلاً من تقسيم 100% على عدد الشرائح
-        track.style.transform = `translateX(-${currentSlide * 300}%)`;
+        track.style.transform = `translateX(-${currentSlide * 33.333}%)`;
         updateDots();
     }
     
